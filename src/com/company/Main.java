@@ -1,22 +1,23 @@
 package com.company;
+
 import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double fn, sn, result;
+        double num1, num2, result;
 
-        System.out.println("Введи первое число");
-        fn = scanner.nextDouble();
-        System.out.println("Введи второе число");
-        sn = scanner.nextDouble();
-
-        result = fn + sn;
-
-        System.out.printf("Равно  %7.4f",result);
-scanner.close();
-    }
-    }
+        System.out.println("Первое число:");
+        num1 = scanner.nextDouble();
+        System.out.println("Второе число:");
+        num2 = scanner.nextDouble();
+        result = num1 + num2;
+        /* Ответ*/
+        System.out.printf("Равно:%.4f", result);
+        scanner.close();
+        }
+        }
 
 
 
